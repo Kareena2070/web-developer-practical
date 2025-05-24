@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color:#fff8d6;
+    padding: 0;
+}
+
+.navbar{
+    background-color:#ffd100;
+    height: 5em;
+    width: 100%;
+    margin: 0;
+    float: left;
+    text-align: end;
+    position: fixed;   
+}
+
+.navbar nav {
+    padding: 1.5em;
+}
+
+.size{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.about{
+     padding-top: 5rem;    /*we using this so if navbar position is fixed then also body part not cover  */
+}
+
+.restaurantName{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.restaurantPra{
+    font-size: 1.7rem;
+    padding: 3rem;
+}
+
+.menuHeader{
+    padding-top: 5rem;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+.menu img{
+    height: rem;
+    width: 32rem;
+    border-radius: 10%;
+}
+
+.menu p{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.menu h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.menuHeader h1{
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#booking{
+    justify-items: center;
+    padding: 3em;
+}
+
+form{
+    display: grid;
+    width: 30em;
+}
+
+form label{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+form input {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#booking button{
+    margin-top: 1.2em;
+    width: 6em;
+    height: 2rem;
+    /* justify-items: center; */
+    /* align-items: center; */
+
+}
+
+#booking h1{
+    margin-top: 2em;
+}
+
+#contact{
+    background-color: #fae580;
+    display: flex;
+    height: 15em;
+    justify-content: space-around;
+    border: solid 0.01rem black;
+}
+
+#contact div{
+    margin-top: 2.5rem;
+}
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorFusion Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main>
+            <header class="navbar">
+                <nav>
+                    <a class="size" href="#home">Home</a>
+                    <a class="size" href="#menu">Menu</a>
+                    <a class="size" href="#booking"> Book Table</a>
+                    <a class="size" href="#contact">Contact</a>
+                    <!-- <a class="size" href="#booking"> Book Table</a> -->
+                </nav>
+            </header>
+            <img src="restaurant.png" alt="Our Restaurant Image" height="890" width="100%">
+         
+            <div class="about" id="home"></div>
+        
+                <!-- <img src="restaurant.png" alt="Our Restaurant Image" height="790" width="100%"> -->
+                
+                <h1 class="restaurantName">FlavorFusion Restaurant</h1>
+                <p class="restaurantPra">
+                    Welcome to <strong>FlavorFusion</strong> – where taste meets tradition!  
+                    Located in the heart of the city, FlavorFusion is a modern multi-cuisine restaurant 
+                    that brings together flavors from around the world under one roof.
+                    <br><br>
+                    Established in 2020, our mission is to serve delicious, high-quality food with a warm and inviting atmosphere. 
+                    From aromatic Indian curries to sizzling Asian stir-fries and classic continental delights, 
+                    every dish is prepared with fresh ingredients and a touch of love.
+                    <br><br>
+                    Whether you're dining with family, enjoying a date night, or celebrating a special occasion, 
+                    our friendly staff and cozy ambiance make every meal memorable.
+                    Join us and experience the art of flavorful dining!
+                </p>
+            </div>
+        </main>
+
+    <section id="menu" class="menuHeader">
+        <h1>Starters</h1>
+            <div class="menu">
+                <div>
+                    <h2>Veg Spring Rolls</h2>
+                    <img src="vegroll.png" alt="Veg Spring Rolls">
+                    <p>Crunchy rolls filled with seasoned mixed vegetables, served with a tangy dip <strong> ₹150</strong></p>
+                </div>
+                <div>
+                    <h2>Chicken Tikka </h2>
+                    <img src="chickenTika.png" alt="Chicken Tikka ">
+                    <p> Marinated chicken cubes grilled in a clay oven, packed with bold spices. <strong>₹250</strong></p>
+                </div>
+                <div>
+                <h2>Paneer Tikka</h2>
+                <img src="pannertikka.png" alt="Paneer Tikka">
+                <p>Soft cottage cheese cubes marinated and grilled to perfection. <strong>₹220</strong></p>
+                </div>
+             </div>
+
+        <h1> Main Course</h1>
+        <div class="menu">
+                <div>
+                    <h2>Butter Chicken</h2>
+                    <img src="chickenButter.png" alt="Butter Chicken">
+                    <p> Classic North Indian chicken dish in a rich, creamy tomato-based gravy. <strong>₹320</strong></p>
+                </div>
+                <div>
+                    <h2>Paneer Butter Masala </h2>
+                    <img src="pannerButterMasala.png" alt="Paneer Butter Masala ">
+                    <p>Soft paneer cubes cooked in a flavorful buttery curry. <strong>₹280</strong></p>
+                </div>
+                <div>
+                    <h2>Veg Biryani</h2>
+                    <img src="vegBiriyani.png" alt="Veg Biryani">
+                    <p>Aromatic basmati rice cooked with vegetables, saffron, and Indian spices. <strong> ₹240</strong></p>
+                </div>
+        </div>
+
+        <h1>Desserts</h1>
+                <div class="menu">
+                    <div>
+                        <h2>Gulab Jamun</h2>
+                        <img src="gulabJamun.png" alt="Gulab Jamun">
+                        <p>Soft milk-solid balls soaked in warm rose-flavored sugar syrup. <strong>₹90</strong></p>
+                    </div>
+                    <div>
+                        <h2>Chocolate Mousse </h2>
+                        <img src="chocolateMousse.png" alt="Chocolate Mousse ">
+                        <p>Light, fluffy chocolate dessert topped with whipped cream. <strong>₹120</strong></p>
+                    </div>
+                    <div>
+                        <h2>Rasmalai </h2>
+                        <img src="rasamlai.png" alt="Rasmalai">
+                        <p>Creamy, cardamom-infused paneer soaked in sweetened milk. <strong>₹100</strong></p>
+                    </div>
+                </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="booking">
+        <h1 style="font-size: 3em;">BOOK TABLE</h1>
+        
+        <form action="bookTable">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                <!-- <br> -->
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                <!-- <br> -->
+                    <label for="time">Time:</label>
+                    <input type="time" name="time" id="time">
+                
+                    <label for="NumberOfGuest">Number of Guests:</label>
+                    <input type="number" name="NumberOfGuest" id="NumberOfGuest" min="1" max="10">
+                
+                    <label for="phoneNum">Phone Number:</label>
+                    <input type="tel" name="phoneNum" id="phoneNum">
+            
+                    <label for="special-request">Special Request:</label>
+                    <textarea id="special-request" name="special-request" rows="4" cols="40" placeholder="Let us know about allergies, special instructions, or celebration requests..." ></textarea>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+    </section>
+
+    <footer id="contact">
+        <div class="address-phone">
+            <h1> Address:</h1>
+            <p>FlavorFusion Restaurant <br>
+                123 Foodie Street, Sector 7, <br>
+                New Delhi - 110011, India <br>
+            </p>
+            <br>
+            <h1>Phone Number:</h1>
+            <p>+91 98765 43210 <br>
+                +91 91234 56789
+            </p>
+        </div>
+        <div class="email-social">
+            <h1> Email:</h1>
+            <p>support@flavorfusion.in <br>
+                reservations@flavorfusion.in
+            </p>
+            <h1>Social Media Links:</h1>
+            <p>🌐 www.flavorfusion.in <br>
+
+                📸 Instagram: @flavorfusion.restaurant <br>
+                
+                👍 Facebook: facebook.com/flavorfusion.in <br>
+                
+                🐦 Twitter: @flavorfusionIN
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
