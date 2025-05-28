@@ -15,6 +15,12 @@ body {
     float: left;
     text-align: end;
     position: fixed;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    padding: 1.5rem;
 }
 
 .navbar nav {
@@ -53,9 +59,9 @@ body {
    
 }
 .menu img{
-    height: rem;
-    width: 32rem;
-    border-radius: 10%;
+    height: 30rem;
+    width: 33rem;
+    border-radius: 6%;
 }
 
 .menu p{
