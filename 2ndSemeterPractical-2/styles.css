@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 0;
+    background-color: #f1faee;
+}
+
+.navbar{
+    height: 6em;
+    width: 100%;
+    margin: 0;
+    background-color: #1d3557;
+    text-align: end;
+    position: fixed;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.navbar h1{
+    color: white;
+    padding: 1.5rem;
+    
+}
+  
+.navbar nav {
+    padding: 1.5em;
+}
+
+
+.size{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.header{
+    padding-top: 6rem;
+    text-align: center;
+}
+.header button{
+    font-size: 1.5rem;
+    /* height: 3.7rem;
+    width: 7rem; */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3%;
+    background-color: #cae9ff;
+}
+
+.welcome-mess{
+    font-size: 6rem;
+    text-align: center;
+}
+
+.welcome-pra{
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.headerCourse{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+#courses {
+    padding-top: 5em;
+}
+
+.coursera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    /* align-items: center; */
+}
+.coursera img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 10%;
+}
+
+.coursera h1{
+    font-size: 2rem;
+}
+
+.coursera p{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.coursera button{
+    height: 2rem;
+    width: 4rem;
+}
+
+.head-youtube{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2.4rem;
+}
+
+ iframe{
+    height: 25rem;
+    width: 30rem;
+    border-radius: 5%;
+ }
+
+ .head-annou{
+    padding-top: 8rem;
+ }
+
+.head-annou{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2.4rem;
+}
+
+.latest-ann{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    /* background-color: aliceblue; */
+}
+
+.latest-ann h1{
+    font-size: 2rem;
+    
+}
+
+.latest-ann P{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.login{
+    display: grid;
+    width: 30em;
+    background-color: #bee9e8;
+    padding: 6rem;
+    
+}
+#login{
+    justify-items: center;
+    padding: 3em;
+    
+}
+
+#login h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+      
+}
+.login label{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.login input{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.login button{
+    margin-top: 1.2em;
+    width: 6em;
+    height: 2rem;
+    
+}
+
+footer{
+    background-color: #cae9ff;
+}
+
+.step1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    padding: 4em;
+    margin-left: 20rem;
+}
+
